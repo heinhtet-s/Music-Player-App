@@ -9,8 +9,11 @@ export const StackScreenWithSearchBar: NativeStackNavigationOptions = {
   headerLargeTitleStyle: {
     color: colors.text,
   },
+  headerTitleStyle: {
+    fontSize: 30,
+  },
   headerTintColor: colors.text,
-  headerTransparent: true,
+  // headerTransparent: true,
   headerBlurEffect: "prominent",
   headerShadowVisible: false,
 };

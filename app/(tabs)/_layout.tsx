@@ -29,7 +29,7 @@ function MyTabBar({ state, descriptors, navigation }: any) {
       }}
     >
       <BlurView
-        intensity={95}
+        intensity={20}
         style={{
           ...StyleSheet.absoluteFillObject,
           overflow: "hidden",
